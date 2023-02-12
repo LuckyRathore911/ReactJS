@@ -8,7 +8,12 @@ import Weather from './Weather/Weather'
 const App = () => {
   return (
     <div>
+      {/* <UseEffect/>
+      <UseState/>
       <UseReducer/>
+      <Restaurant/>
+      <ToDo/>*/}
+      <Weather/> 
     </div>
   )
 }
