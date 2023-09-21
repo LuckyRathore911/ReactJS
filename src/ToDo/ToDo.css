@@ -13,6 +13,7 @@ html {
 
 .main-div {
   min-height: 100vh;
+  width: 60rem;
   background: #060822;
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@ html {
 
 .child-div {
   text-align: center;
-  margin-top: 12rem;
+  margin-top: 2rem;
 }
 
 .child-div figure img {
@@ -153,8 +154,6 @@ input:focus {
   margin-left: -3.5rem;
 }
 
-/*  Please Subscribe to ThapaTechnical Youtube Channel
-/* Click Here: https://www.youtube.com/thapatechnical  */
 
 .eachItem:hover .fa-trash-alt {
   color: rgb(214, 47, 61);
@@ -190,7 +189,7 @@ input:focus {
   color: #000;
   outline: solid 2px #000;
   position: relative;
-  transition-duration: 0.4s;
+  transition-duration: 1s;
   overflow: hidden;
 }
 
@@ -198,7 +197,7 @@ input:focus {
 .effect04 span {
   margin: 0 auto;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
 }
 
 .effect04:hover {

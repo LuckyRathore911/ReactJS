@@ -32,7 +32,7 @@ body {
 .widget {
   display: flex;
   height: 400px;
-  width: 650px;
+  width: 800px;
   flex-wrap: wrap;
   cursor: pointer;
   border-radius: 20px;
@@ -61,12 +61,13 @@ body {
   color: white;
 }
 .widget .weatherInfo .temperature {
-  flex: 0 0 40%;
+  flex: 0 0 50%;
   width: 100%;
   font-size: 65px;
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
+  margin-right: 50px;
 }
 .widget .weatherInfo .description {
   flex: 0 60%;
@@ -88,7 +89,7 @@ body {
   flex: 0 0 30%;
   height: 40%;
   background: #70c1b3;
-  display: flex;
+  display:flex;
   justify-content: space-around;
   align-items: center;
   color: white;
@@ -130,24 +131,26 @@ body {
   font-weight: 600;
   text-transform: capitalize;
   color: #080705;
-  font-size: 15px;
+  font-size: 25px;
+  padding: 8px;
 }
 
 /* input search button style  */
 
 .search {
-  width: 100%;
+  width: 100px;
   position: relative;
   display: flex;
   justify-content: center;
+
 }
 
 .searchTerm {
   width: 50%;
-  /* border: 3px solid #00b4cc; */
+  border: 3px solid #00b4cc;
   border: none;
   padding: 16px;
-  height: 20px;
+  height: 30px;
   border-radius: 5px 0 0 5px;
   outline: none;
   font-size: 18px;
@@ -158,8 +161,8 @@ body {
 }
 
 .searchButton {
-  width: 80px;
-  height: 55px;
+  width: 100px;
+  height: 46px;
   border: none;
   background: #048b9c;
   text-align: center;
@@ -168,8 +171,7 @@ body {
   cursor: pointer;
   font-size: 20px;
   outline: none;
-  font-size: 16px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .searchButton:hover {
